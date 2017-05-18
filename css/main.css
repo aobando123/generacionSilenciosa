@@ -1,4 +1,21 @@
-.cue{
 
-  color: red;
+body{
+  /*Normalizacion de css: quita espacios molestos que usualmente vienen por
+  defecto en el html, hay de hecho un codigo de css que viene con todos los
+  elementos normalizados pero por ahora basta con poner el margin y
+  padding en cero*/
+  margin: 0;
+  padding: 0;
+
+  /*Aqui definamos el font que usaremos en la pagina y el tamanno sino tienen
+  instalado el open sans pueden descargarlo aqui:
+  https://fonts.google.com/specimen/Open+Sans  cuando lo seleccionen les
+  aparecera una ventana en la cual dice family selected pueden descargarla o
+  importarla directamente como gusten en la pagina viene como hacerlo.*/
+  font-family:  'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.15;
+
+  /*TO DO: Definir los colores de la pagina a usar*/
+
 }
